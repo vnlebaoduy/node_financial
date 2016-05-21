@@ -42,9 +42,9 @@ module.exports.connections = {
   ***************************************************************************/
   node_financial_mysql: {
     adapter: 'sails-mysql',
-    host: 'localhost',
-    user: 'sa', //optional
-    password: '123456', //optional
+    host: '127.0.0.1',
+    user: 'root', //optional
+    password: '', //optional
     database: 'node_financial' //optional
   },
 
